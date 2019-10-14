@@ -1,0 +1,36 @@
+﻿!UI trail file version 1
+!Application name  `PRO`
+! Message Dialog: Warning
+!               : Do you want to quit Sketcher?
+!               : Modifications made inside Sketcher will not be saved.
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!ODUI session finished.
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelSaveAs` 
+~ Update `file_saveas` `Inputname` `DRONE_BASEPLATE2.1`
+~ Activate `file_saveas` `Inputname`
+!%CEAn object with that name exists in session.  Choose a different name.
+~ Activate `file_saveas` `OK`
+!%CEAn object with that name exists in session.  Choose a different name.
+~ Update `file_saveas` `Inputname` `DRONE_BASEPLATE2_1`
+~ Activate `file_saveas` `Inputname`
+!%CIDRONE_BASEPLATE2_1 has been saved.
+!%CIDRONE_BASEPLATE2 has been copied to DRONE_BASEPLATE2_1.
+~ Close `main_dlg_cur` `appl_casc`
+~ Command `ProCmdModelSaveAs` 
+~ Activate `file_saveas` `mydocs_pb`
+~ Activate `file_saveas` `desktop_pb`
+~ Activate `file_saveas` `Current Dir`
+~ Update `file_saveas` `Inputname` `DRONE_BASEPLATE2_1`
+~ Activate `file_saveas` `Inputname`
+!%CIDRONE_BASEPLATE2_1 has been saved.
+!%CIDRONE_BASEPLATE2 has been copied to DRONE_BASEPLATE2_1.
+~ Close `main_dlg_cur` `main_dlg_cur`
+!Command ProCmdOSExit was pushed from the software.
+! Message Dialog: Warning
+!               : Creo Parametric Student Edition (for educational use only) will terminate and any unsaved work will be lost.
+!               : Do you really want to exit?
+~ FocusIn `UI Message Dialog` `yes`
+~ Activate `UI Message Dialog` `yes`
+!End of Trail File

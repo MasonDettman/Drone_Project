@@ -1,0 +1,47 @@
+﻿|***************************|
+    REFERENCE INFORMATION    
+|***************************|
+ Reference No.1 out of 1 
+
+Reference:
+   TYPE   : plane
+
+Status   : in geometry
+
+
+Reference owner:
+ Model   :
+   NAME   : DRONE_BASEPLATE2_1 
+   TYPE   : Part
+ Feature :
+
+    FEATURE NUMBER       11
+    INTERNAL FEATURE ID  2131
+    PARENTS = 2108(#10) 
+
+
+ CUT: Extrude
+
+  NO.     ELEMENT NAME       INFO                                               
+  ---     -------------      -------------                                      
+   1      Feature Name       Defined                                            
+   2      Extrude Feat type  Solid                                              
+   3      Material           Remove                                             
+   4      Section            Defined                                            
+   4.1    Reference Sketch   F10(SKETCH_4)                                      
+   5      Feature Form       Solid                                              
+   6      Material Side      Side Two                                           
+   7      Direction          Side 1                                             
+   8      Depth              Defined                                            
+   8.1    Side One           Defined                                            
+   8.1.1  Side One Depth     None                                               
+   8.2    Side Two           Defined                                            
+   8.2.1  Side Two Depth     Variable                                           
+   8.2.2  Value              8.00                                               
+
+    SECTION NAME = Sketch 4 
+
+
+    FEATURE'S DIMENSIONS:
+    d296 = (Displayed:) 8.00
+           (   Stored:) 8.0 ( 0.01, -0.01 ) 
