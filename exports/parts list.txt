@@ -1,12 +1,12 @@
 parts list
 -----------------------------------------------------------
-2x camera front
-2x wheel mount
-1x drone base
-2x camera side
-1x camera top
-2x motor holder
-1x motor holder back
-1x wheel bar
-4x wheel holder
-1x servo mount
+2x camera front       1/4"
+2x wheel mount        1/4"
+1x drone base         1/8"
+2x camera side        1/4"
+1x camera top         1/4"
+2x motor holder       1/4"
+1x motor holder back  1/4"
+1x wheel bar          1/8"
+4x wheel holder       1/8" 
+1x servo mount        1/4"
