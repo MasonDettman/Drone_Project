@@ -1,0 +1,11 @@
+# 
+
+# set throttle_limit_type = scale
+throttle_limit_type set to SCALE
+# set throttle_limit_type = scale
+throttle_limit_type set to SCALE
+# set throttle_limit_type = scale
+throttle_limit_type set to SCALE
+# set throttle_limit_percent = 85
+throttle_limit_percent set to 85
+# 
